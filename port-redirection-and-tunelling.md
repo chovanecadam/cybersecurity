@@ -11,14 +11,14 @@ This technique only works when ssh connections are allowed. All data are encrypt
 -L local_socket:remote_socket
 ```
 
-Usage:
+### Usage:
 
 ```
 1) ssh -NL 127.0.0.1:8080:127.0.0.1:80      alice@alice
 2) ssh -NL 127.0.0.1:8080:192.168.0.3:80    alice@alice
 ```
 
-Any traffic to 127.0.0.1:8080 will be forwarded to 127.0.0.1:80 (or 192.168.0.3:80 in the second example).
+Any traffic to 127.0.0.1:8080 will be forwarded to 127.0.0.1:80 on Alice's localhost's (or 192.168.0.3:80 in the second example).
 
 ## SSH Remote Port Forwarding
 
@@ -30,18 +30,18 @@ Any traffic to 127.0.0.1:8080 will be forwarded to 127.0.0.1:80 (or 192.168.0.3:
 -R [bind_address:]port
 ```
 
-Usage:
+### Usage:
 
 ```
 1) ssh -NR 3307:127.0.0.1:3306 eve@eve
 2) ssh -NR alice:3307:127.0.0.1:3306 alice@alice
 ```
 
-This command will open new listening port on the destination, which we ssh to. Any connection to this port will be forwarded back the to client, from which we started the connection. Hence the name *remote* port forwarding.
+This command will open a new listening port on the destination, which we ssh to. Any connection to this port will be forwarded back to the client, from which we started the connection. Hence the name *remote* port forwarding.
 
-In the first example we initiate the connection from a host back to our machine. This can be useful if firewall block inbound ssh traffic, but allows outbound ssh traffic.
+In the first example, we initiate the connection from a host back to our machine. This can be useful if the firewall blocks inbound ssh traffic, but allows outbound ssh traffic. We can then access Eve's port 3306 accessible only from her localhost from 127.0.0.1:3307 on our machine.
 
-In the second example we start the connection from our machine and forward any connection made to 3307 to alice's localhost 3306 - this can be usefull if we want to publicly expose a port which is otherwise blocked by firewall. This isn't possible in the default configuration, but can be changed:
+In the second example, we start the connection from our machine and forward any connection made to 3307 to Alice's localhost 3306 - this can be useful if we want to publicly expose a port that is otherwise blocked by the firewall. This isn't possible in the default configuration, but can be changed:
 
 ```
 # /etc/ssh/sshd_config
@@ -61,7 +61,7 @@ Usage:
 ssh -ND 9050 alice@alice
 ```
 
-This openes port 9050 on our machine, which acts as a SOCKS proxy server. Tools which don't support proxy settings can be made to work with proxy using proxychains. Make sure that proxychains is configured to use the same port as in ssh:
+This opens port 9050 on our machine, which acts as a SOCKS proxy server. Tools that don't support proxy settings can be made to work with proxy using proxychains. Make sure that proxychains is configured to use the same port as in ssh:
 
 ```
 # /etc/proxychains.conf
@@ -116,4 +116,3 @@ htc -w -F 8080 alice:1234
 ```
 
 Now any connection to client's port 8080 will be tunneled through http to alice:1234 and then forwarded to bob:8080.
-
