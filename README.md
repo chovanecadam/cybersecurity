@@ -32,14 +32,32 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš spíš
 
 ## Videa, konference, YouTube
 
+* [defcon.org](https://www.youtube.com/user/DEFCONConference/playlists)
+* [BlackHat](https://www.youtube.com/user/BlackHatOfficialYT)
 * [IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA)
 * [VbScrub](https://www.youtube.com/channel/UCpoyhjwNIWZmsiKNKpsMAQQ)
 * [SANS konference](https://www.sans.org/cyber-security-summit/archives/)
 * [SANS webcasty](https://www.sans.org/webcasts/archive/2020)
-* [defcon.org](https://www.youtube.com/user/DEFCONConference/playlists)
 * [Wild West Hacking Fest](https://www.youtube.com/channel/UCef0TWni8ghLcJphdmDBoxw/videos)
 * [Bugcrowd](https://www.youtube.com/c/Bugcrowd/videos)
 * [VirSecCon2020](https://www.youtube.com/watch?v=B3Udl86Zu20&t=8s)
+* [InstallFest](https://www.youtube.com/channel/UCivNQFv0lsPN3kEy2wKPOhw)
+* [Hack In The Box Security Conference](https://www.youtube.com/channel/UC0BJVNTIEbG8CLG-xVVWJnA)
+* [Nahamsec](https://www.youtube.com/c/Nahamsec/videos)
+* [HackTheBox](https://www.youtube.com/c/HackTheBox)
+* [PortSwigger](https://www.youtube.com/c/PortSwiggerTV/videos)
+* [John Hammond](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
+
+## Podcasty
+
+* [Malicious Life](https://malicious.life/)
+* [Security Now](https://twit.tv/shows/security-now)
+* [Risky Business](https://risky.biz/)
+* [Darknet Diaries](https://darknetdiaries.com/)
+* [CYBER](https://podcasts.apple.com/us/podcast/cyber/id1441708044)
+* [The CyberWire Daily](https://thecyberwire.com/podcasts/daily-podcast)
+* [Hacking Humans](https://thecyberwire.com/podcasts/hacking-humans)
+* [MalwareTech Podcast](https://www.youtube.com/channel/UCLDnEn-TxejaDB8qm2AUhHQ)
 
 ## Offline virtuálky a sandboxy pro hackování
 
@@ -54,6 +72,7 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš spíš
 ## On-line cvičení a CTFs
 
 * [Hack The Box](https://hackthebox.eu)
+* [TryHackMe](https://tryhackme.com/)
 * [SafeWeb.cz](https://www.safeweb.cz/)
 * [HackEDU](https://www.hackedu.com/)
 * [Hack This Site](https://hackthissite.org)
@@ -72,6 +91,7 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš spíš
 
 * [Hacker One](https://www.hackerone.com/)
 * [BugCrowd](https://www.bugcrowd.com/)
+* [Intigriti](https://www.intigriti.com/)
 
 ## Malware analysis
 
