@@ -72,8 +72,47 @@ This opens port 9050 on our machine, which acts as a SOCKS proxy server. Tools t
 socks4  127.0.0.1 8050
 ```
 
+{% hint style="info" %}
+We cannot do TCP SYN scan, unless we are root on the machine we ssh to.
+{% endhint %}
+
 ```
-proxychains nmap bob
+proxychains nmap -sT bob
+```
+
+## Invoking port forwarding from a running ssh shell
+
+We can invoke port forwarding from the runnig shell by using SSH control
+sequencies (also known as [konami code](https://www.sans.org/blog/using-the-ssh-konami-code-ssh-control-sequences/)).
+The special character is `~`, all escape sequences can be displayed by `~?`
+and SSH command line can be opened by `~C`.
+
+```
+eve@host$
+Supported escape sequences:
+ ~.   - terminate connection (and any multiplexed sessions)
+ ~B   - send a BREAK to the remote system
+ ~C   - open a command line
+ ~R   - request rekey
+ ~V/v - decrease/increase verbosity (LogLevel)
+ ~^Z  - suspend ssh
+ ~#   - list forwarded connections
+ ~&   - background ssh (when waiting for connections to terminate)
+ ~?   - this message
+ ~~   - send the escape character by typing it twice
+(Note that escapes are only recognized immediately after newline.)
+
+ssh> help
+Commands:
+      -L[bind_address:]port:host:hostport    Request local forward
+      -R[bind_address:]port:host:hostport    Request remote forward
+      -D[bind_address:]port                  Request dynamic forward
+      -KL[bind_address:]port                 Cancel local forward
+      -KR[bind_address:]port                 Cancel remote forward
+      -KD[bind_address:]port                 Cancel dynamic forward
+
+ssh> -D 1080
+Forwarding port.
 ```
 
 ## Sidenote: X11 forwarding
