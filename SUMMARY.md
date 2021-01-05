@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Rozcestník odkazů](README.md)
+* [Rozcestník pro samostudium kybernetické bezpečnosti](README.md)
 
 ## Techniky, postupy, návody
 
