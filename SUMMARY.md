@@ -8,4 +8,4 @@
 * [SMB - Creating SMB Share](smb/creating-smb-share.md)
   * [Mounting SMB Share](smb/mounting-smb-share.md)
   * [Enumerating SMB Share](smb/enumerating-smb-share.md)
-  * [Exploiting SMB Share](smb/exploiting-smb-share.md)
+  * Exploiting SMB Share (TBD)
