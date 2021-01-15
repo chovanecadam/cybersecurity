@@ -2,14 +2,14 @@
 
 ## from shell
 
-This new mounted drive will be also visible in GUI applications and for the rest
-of the system. To just browse SMB share, use [smbclient](#smbclient) or [smbmap](#smbmap).
+This newly mounted drive will be also visible in GUI applications and for the rest
+of the system. To just browse SMB share, use smbclient or smbmap.
 More information the command [mount.cifs](https://linux.die.net/man/8/mount.cifs).
 
 ```bash
 sudo apt-get install -y cifs-utils
 
-# mount new share to you linux machine
+# mount new share to your linux machine
 mount -t cifs //10.10.10.100/Backups /mnt/remote_backups
 ```
 

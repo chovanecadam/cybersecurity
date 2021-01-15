@@ -33,8 +33,8 @@ It also supports standard shell commands like `cd, ls, pwd, more`.
 ## SMBMap
 
 [SMBMap](https://github.com/ShawnDEvans/smbmap) is a penetration testing tool
-for enumeration and exploitation of SMB shares. This tools doesn't display 
-share comments. By default it tries to check drive permissions by reading, creating
+for enumeration and exploitation of SMB shares. This tool doesn't display
+share comments. By default it tries to check drive permissions by reading, creating,
 and deleting files. You can (and should) disable this feature by `--no-write-check`
 flag.
 
@@ -54,8 +54,8 @@ smbmap.py -u username -ppassword -H 10.10.10.100 -R Users -A user.txt
 
 ## Nmap
 
-> [Nmap](https://nmap.org/) ("Network Mapper") is a free and open
-> source (license) utility for network discovery and security auditing.
+> [Nmap](https://nmap.org/) ("Network Mapper") is a free and open-source
+> utility for network discovery and security auditing.
 
 Nmap offers several scripts for enumerating SMB shares. It will
 create "nmap-test-file" to check write and delete permissions.
@@ -66,3 +66,7 @@ nmap --script smb-enum* --script-args=unsafe=1 -p139,445 10.10.10.100
 
 nmap --script "safe or smb-enum-*" -p 445
 ```
+
+# Exploitation
+
+TBD

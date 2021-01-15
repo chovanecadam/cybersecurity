@@ -29,15 +29,15 @@ service smbd stop
 ### Impacket
 
 Impacket provides this [python script](https://github.com/SecureAuthCorp/impacket/blob/master/examples/smbserver.py)
-which creates new smb share. SMB2 support is experimental, but it provides
-options for password or NTLM authentication. In my experience it doesn't work
+which creates a new SMB share. SMB2 support is experimental, but it provides
+options for a password or an NTLM authentication. In my experience, it doesn't work
 well.
 
 # Creating new share on Windows
 
-There are two sets of permissions, filesystem permissions and CIFS share
+There are two sets of permissions, filesystem permissions, and CIFS share
 permissions. When accessing a share, both of these are evaluated and
-the stricter takes precedence. The best practise is to set CIFS permissions
+the stricter takes precedence. The best practice is to set CIFS permissions
 to "Everyone: Full Control" and manage permissions of files on filesystem level.
 This way users can access the same files from SMB, RDP or WinRM.
 
@@ -80,21 +80,21 @@ net share shared /detele
 ## from File Explorer
 
 Creating a new share from GUI tools on Windows can be a bit tricky.
-Open File Explorer, select folder you want to share, in context menu
-select properties and go to Sharing. There are two options to share.
-Neither of these options enforce encrypted connections.
+Open File Explorer, select a folder you want to share, in the context menu
+select properties, and go to Sharing. There are two options to share.
+Neither of these options enforces encrypted connections.
 
 ### "Share..."
 
 This option will share the whole "/Users/" directory, sets CIFS permissions
-to "Everyone: Full Controll" and then set filesystem permissions to the given
+to "Everyone: Full Control" and then set filesystem permissions to the given
 permissions. If you delete the share, the permissions will be reset to the
 previous state. Note that with this option, any folder or file which is readable
 by Everyone, Guest or Anonymous Logon will be exposed too.
 
 ### "Advanced sharing..."
 
-This options lets you share only selected folder, add a comment and set CIFS
-permissions. This options doesn't set filesystem permissions, you need to do it
+This option lets you share only the selected folder, add a comment, and set CIFS
+permissions. This option doesn't set filesystem permissions, you need to do it
 separately.
 
