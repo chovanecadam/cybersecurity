@@ -63,7 +63,7 @@ Set-SmbServerConfiguration -EncryptData $true
 Set-SmbShare -Name Private -EncryptData $true
 ```
 
-Command Prompt tool to manage shell is [net share](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh750728(v=ws.11)).
+Command Prompt tool to manage shell is [net share](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh750728%28v%3Dws.11%29).
 
 ```
 # create new share
