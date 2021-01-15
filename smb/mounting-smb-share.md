@@ -27,7 +27,7 @@ cd bk:\
 ```
 
 This will create new drive "s:" visible to other applications on the system, ie.
-File Explorer. Documentation about [net use](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)).
+File Explorer. Documentation about [net use](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155%28v%3Dws.11%29).
 
 ```shell
 # connect to smb share
