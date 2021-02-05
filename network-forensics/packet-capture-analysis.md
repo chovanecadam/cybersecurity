@@ -40,11 +40,11 @@ for packet capture). Wireshark display-filter reference can be found
 
 | název                                    | popis                                    |
 | ---------------------------------------- | ---------------------------------------- |
-| [malware-traffic-analysis.net][m-t-a-.net] | IOCs, packet captures, etc.            |
+| [malware-traffic-analysis.net][mta.net] | IOCs, packet captures, etc.            |
 | [PacketTotal][PtTotal]                   | pcap analysis                            |
 | [A-Packets][A-Pkt]                       | pcap analysis                            |
 | [passivedns][pdns]                       | Passive DNS                              |
-| [macvendorlookup][macvlokkup]            | MAC Lookup                               | 
+| [macvendorlookup][macvlookup]            | MAC Lookup                               | 
 | [macvendors][macvs]                      | MAC Lookup                               |
 | [NERD CESNET][NERD]                      | reputational database                    |
 | [AbuseIPDB][Abus]                        | reputational database                    |
@@ -64,8 +64,9 @@ editcap -i 3600 capture.pcap capture.pcap
 [pcapfix]: https://github.com/Rup0rt/pcapfix "pcapfix"
 [ngrep]: https://github.com/jpr5/ngrep "ngrep"
 [tcpdump]: https://www.tcpdump.org/ "tcpdump"
+[termshark]: https://termshark.io/
 
-[m-t-a.net]: https://www.malware-traffic-analysis.net
+[mta.net]: https://www.malware-traffic-analysis.net
 [PtTotal]: https://packettotal.com/
 [A-Pkt]: https://apackets.com/
 [pdns]: https://passivedns.mnemonic.no/

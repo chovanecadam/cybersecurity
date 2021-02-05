@@ -1,9 +1,9 @@
 # Netflow and IPFIX
 
-A network flow is defined as "a set of IP packets passing an 
+A network flow is defined as *"a set of IP packets passing an 
 observation point in the network during a certain time 
 interval, such that all packets belonging to a particular
-flow have a set of common properties" [RFC 7011](https://tools.ietf.org/html/rfc7011)
+flow have a set of common properties"* [RFC 7011](https://tools.ietf.org/html/rfc7011)
 
 Flow record is a set of source/dest IP, source/dst ports,
 protocol, start/end times, number of packets, number of bytes
@@ -95,9 +95,7 @@ nfdump -r capture.nfcapd -A srcip,dstip -o line "dst port 53"
 
 [nfdump](https://github.com/phaag/nfdump) package also provides a very handy
 nfpcapd tool created for this purpose. The tool doesn't offer an option to
-choose netflow version of the records though.
-
-Another option is to replay captured traffic and generate new netflow records
-on the wire. This can be done with
+choose netflow version of the records though. Another option is to replay
+captured traffic and generate new netflow records on the wire. This can be done with
 [tcpreplay](http://manpages.ubuntu.com/manpages/hirsute/man1/tcpreplay.1.html)
 tool.
