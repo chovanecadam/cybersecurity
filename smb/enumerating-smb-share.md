@@ -66,7 +66,3 @@ nmap --script smb-enum* --script-args=unsafe=1 -p139,445 10.10.10.100
 
 nmap --script "safe or smb-enum-*" -p 445
 ```
-
-# Exploitation
-
-TBD

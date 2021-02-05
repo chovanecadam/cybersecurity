@@ -13,3 +13,7 @@
   * [Processess and jobs](tools/processess.md)
   * [Sockets and networking](tools/sockets-and-networking.md)
 
+## Network Forensics
+
+* [Packet Capure and Analysis](network-forensics/packet-capture-analysis.md)
+* [Netflow and IPFIX](network-forensics/netflow-ipfix.md)

