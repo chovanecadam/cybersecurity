@@ -134,7 +134,9 @@ Forwarding port.
 ## Sidenote: X11 forwarding
 
 We can also use ssh to access graphical applications using X11 
-forwarding.
+forwarding. This will also allow commands like xclip to work, which
+is very handy (but also let's remote host spy on your applications or
+clipboard contents TODO verify you're not bullshitting)
 
 ```
 # /etc/ssh/sshd_config on the server side
@@ -144,6 +146,22 @@ X11UseLocalhost no
 ```
 
 The server also needs to be running an X11 server.
+
+```bash
+sudo apt install xauth xinit
+TODO do I have to start it, not, what?
+```
+
+You will also have to change X configuration, so users can access X server
+even if not logged into a physical console.
+
+```
+# /etc/X11/Xwrapper.config
+
+allowed_users = rootonly
+```
+
+Now you can connect with ssh. TODO check if all there steps are necessary.
 
 ```bash
 ssh -f -X bob

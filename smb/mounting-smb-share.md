@@ -51,7 +51,9 @@ In [Files](https://wiki.gnome.org/Apps/Files), file manager for GNOME:
 2. enter hostname or ip of the server "smb://10.10.10.10"
 3. log in or use anonymous share
 
-In Windows File Explorer, just enter addres or hostname as the file path:
+Credentials can be stored in [seahorse](https://wiki.gnome.org/Apps/Seahorse).
+
+In Windows File Explorer, just enter addres or hostname as a file path:
 
 ```
 \\10.10.10.2\

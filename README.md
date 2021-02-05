@@ -4,7 +4,7 @@ Užitečné odkazy pro oblast kybernetické bezpečnosti, zejména penetračníh
 Jako gitbook dostupné na [chovanecadam.gitbook.io/cybersecurity/](https://chovanecadam.gitbook.io/cybersecurity/),
 gitový repozitář na [github.com/chovanecadam/cybersecurity](https://github.com/chovanecadam/cybersecurity).
 
-Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš spíše sporadicky[.](https://youtu.be/dQw4w9WgXcQ)
+Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sporadicky[.](https://youtu.be/dQw4w9WgXcQ)
 
 ## Interaktivní tutoriály a kurzy
 
@@ -55,6 +55,7 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš spíš
 * [HackTheBox](https://www.youtube.com/c/HackTheBox)
 * [PortSwigger](https://www.youtube.com/c/PortSwiggerTV/videos)
 * [John Hammond](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
+* [Hacksplained](https://www.youtube.com/c/Hacksplained/videos)
 
 ## Podcasty
 
