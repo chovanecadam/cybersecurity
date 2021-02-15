@@ -12,6 +12,7 @@
   * [Editing files](tools/editors.md)
   * [Processess and jobs](tools/processess.md)
   * [Sockets and networking](tools/sockets-and-networking.md)
+* [OSINT](osint/README.md)
 
 ## Network Forensics
 
