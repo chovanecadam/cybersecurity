@@ -10,6 +10,7 @@
 | locate        | find files from updatedb(8) database          |
 | file          | determine file type                           |
 | stat          | display file or file system status            |
+| grep          | print lines that mach patterns                |
 
 ## Examples
 
@@ -29,4 +30,12 @@ find / -perm -2000 2>/dev/null
 
 # recursively print names of all files from the currect directory
 find .
+```
+
+### grep
+
+```bash
+# print accessed .html files from access log
+# regex maches all characters from forward slash to ".html"
+grep -o '[^/]*\.html' access_log.txt | sort -u
 ```

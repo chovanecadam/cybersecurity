@@ -36,24 +36,26 @@ for packet capture). Wireshark display-filter reference can be found
 | pcapfix       | attempt to fix package                | [pcapfix][pcapfix]    |
 | ngrep         | grep on packet payloads               | [ngrep][ngrep]        |     
 
-### internet tools
+### automated internet tools
 
 | název                                    | popis                                    |
 | ---------------------------------------- | ---------------------------------------- |
-| [malware-traffic-analysis.net][mta.net] | IOCs, packet captures, etc.            |
+| [malware-traffic-analysis.net][mta.net]  | IOCs, packet captures, etc.              |
 | [PacketTotal][PtTotal]                   | pcap analysis                            |
 | [A-Packets][A-Pkt]                       | pcap analysis                            |
-| [passivedns][pdns]                       | Passive DNS                              |
-| [macvendorlookup][macvlookup]            | MAC Lookup                               | 
-| [macvendors][macvs]                      | MAC Lookup                               |
-| [NERD CESNET][NERD]                      | reputational database                    |
-| [AbuseIPDB][Abus]                        | reputational database                    |
+
+[Chapter](../osint/README.md) about open-source intelligence
+contains a list of tools which are very useful for packet capture
+analysis (identifying hosts, subdomains, MAC manufacturers, etc.)
 
 ## Examples
 
 ```bash
 # capture tls traffic on interface eth0, rotate every 5 minutes
 tcpdump -i eth0 -w capture.pcap -G 600 "port 443"
+
+# capture only packet with SYN and FIN flags set
+tcpdump -i eth0 'tcp[tcpflags] & (tcp-syn|tcp-fin) != 0'
 
 # split large capture to one-hour files
 editcap -i 3600 capture.pcap capture.pcap
@@ -69,11 +71,6 @@ editcap -i 3600 capture.pcap capture.pcap
 [mta.net]: https://www.malware-traffic-analysis.net
 [PtTotal]: https://packettotal.com/
 [A-Pkt]: https://apackets.com/
-[pdns]: https://passivedns.mnemonic.no/
-[macvlookup]: https://www.macvendorlookup.com/
-[macvs]: https://macvendors.com/
-[NERD]: https://nerd.cesnet.cz/nerd/ips
-[Abus]: https://www.abuseipdb.com
 
 [wireshark-filters]: https://www.wireshark.org/docs/dfref/
 
