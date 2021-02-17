@@ -12,6 +12,7 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sp
 * [Hacker 101](https://www.hacker101.com/)
 * [Open Security Training](https://www.opensecuritytraining.info/)
 * [Cybrary](https://www.cybrary.it/)
+* [Purple Academy](https://academy.picussecurity.com/home)
 
 ## OWASP
 
