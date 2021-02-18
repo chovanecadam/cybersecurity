@@ -13,6 +13,7 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sp
 * [Open Security Training](https://www.opensecuritytraining.info/)
 * [Cybrary](https://www.cybrary.it/)
 * [Purple Academy](https://academy.picussecurity.com/home)
+* [Let's Defend](https://app.letsdefend.io/academy/)
 
 ## OWASP
 
@@ -81,6 +82,7 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sp
 
 ## On-line cvičení a CTFs
 
+* [Kybersoutěž](https://www.kybersoutez.cz/)
 * [Hack The Box](https://hackthebox.eu)
 * [TryHackMe](https://tryhackme.com/)
 * [SafeWeb.cz](https://www.safeweb.cz/)
