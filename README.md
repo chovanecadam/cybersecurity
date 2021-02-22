@@ -69,6 +69,8 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sp
 * [The CyberWire Daily](https://thecyberwire.com/podcasts/daily-podcast)
 * [Hacking Humans](https://thecyberwire.com/podcasts/hacking-humans)
 * [MalwareTech Podcast](https://www.youtube.com/channel/UCLDnEn-TxejaDB8qm2AUhHQ)
+* [The PRIVACY, SECURITY, & OSINT Show](https://inteltechniques.com/podcast.html)
+* [Naked Security Podcast](https://podcasts.apple.com/us/podcast/naked-security/id171426676)
 
 ## Offline virtuálky a sandboxy pro hackování
 

@@ -1,5 +1,9 @@
 # OSINT
 
+The purpose of this page is just to list basic tools. The most detailed collection
+of tools is [Open Source Intelligence Techniques](https://inteltechniques.com/book1.html)
+written by [Michael Bazzell](https://inteltechniques.com/index.html).
+
 ## whois
 
 > WHOIS (pronounced as the phrase "who is") is a query and response
@@ -60,6 +64,9 @@ Don't risk getting your IP blocked from using any Google services. I had to solv
 CAPTCHA after just a few queries I tried from the database, so the risk of getting
 banned is very real.
 
+The most recent cached version can be viewed by visiting 
+`https://webcache.googleusercontent.com/search?q=cache:example.com`.
+
 - [Advanced Search](https://google.com/advanced_search)
 - [Advanced Image Search](https://google.com/advanced_image_search)
 - [Google Alerts](https://www.google.com/alerts)
@@ -84,18 +91,7 @@ inurl:".php?id=" "You have an error in your SQL syntax"
 inurl:scgi-bin intitle:"NETGEAR ProSafe"
 ```
 
-## Reverse Image Search
-
-- [Google](https://google.com/imghp)
-- [TinEye](https://tineye.com/)
-- [Bing](https://www.bing.com/visualsearch)
-
-## Search Engine Aggregators
-
-- [eTools.ch](https://www.etools.ch) is an aggregator foe 13 search engines
-- [Startpage.com](https://startpage.com) also supports several [search operators](https://support.startpage.com/index.php?/en/Knowledgebase/Article/View/989/34/advanced-search-which-search-operators-are-supported-by-startpage).
-
-## various internet tools
+## various free internet tools
 
 | name                     | description                        | url       |
 | ------------------------ | ---------------------------------- | --------- |
@@ -109,6 +105,14 @@ inurl:scgi-bin intitle:"NETGEAR ProSafe"
 | Wappalyzer			   | find out what are sites build with | [url][8]  |
 | Security Headers 		   | analyzes HTTP headers			    | [url][9]  |
 | Qualys SSL Labs		   | analyzes SSL configuration		    | [url][10] |
+| ViewDNS.info             | collection of many online tools    | [url][11] |
+| domainIQ                 | collection of many online tools    | [url][21] |
+| google.com/imghp         | visual image search                | [url][14] | 
+| TinEye                   | visual image search                | [url][15] | 
+| Bing visual search       | visual image search                | [url][16] | 
+| eTools.ch                | search engine aggregator           | [url][17] |
+| Startpage.com            | search engine aggregator           | [url][18] |
+| Carbon Dating            | aggregator for several archiving web tools | [url][19] |
 
 [1]: https://sitereport.netcraft.com
 [2]: https://searchdns.netcraft.com/
@@ -120,9 +124,39 @@ inurl:scgi-bin intitle:"NETGEAR ProSafe"
 [8]: https://www.wappalyzer.com/lookup/
 [9]: https://securityheaders.com
 [10]: https://www.ssllabs.com/ssltest/
+[11]: https://viewdns.info/
+[14]: https://google.com/imghp 
+[15]: https://tineye.com/
+[16]: https://www.bing.com/visualsearch
+[17]: https://etools.ch/
+[18]: https://startpage.com/
+[19]: http://carbondate.cs.odu.edu/
+[21]: https://www.domainiq.com/
 
 Wappalyzer also offers great free [browser extensions](https://www.wappalyzer.com/download/)
-which let's you quickly fingerprint technologies used in sites, their versions,
+which lets you quickly fingerprint technologies used in sites, their versions,
 server version, etc.
 
+ViewDNS offers premium API plans, but also allows you to query the site via static URL: 
+`https://viewdns.info/reversewhois/?q=example.com`.
+
+Startpage.com also supports several [search operators](https://support.startpage.com/index.php?/en/Knowledgebase/Article/View/989/34/advanced-search-which-search-operators-are-supported-by-startpage), although less than Google.
+
+Carbon Dating can be also run locally in a [Docker container](https://hub.docker.com/r/oduwsdl/carbondate/dockerfile/).
+
+### premium tools
+
+| name                  | url       |
+| --------------------- | --------- |
+| whoxy                 | [url][12] |
+| whoisology            | [url][13] |
+| Spyse                 | [url][20] |
+| Pentest Tools         | [url][22] |
+| Hunter.io             | [url][23] |
+
+[12]: https://www.whoxy.com
+[13]: https://whoisology.com
+[20]: https://spyse.com/tools
+[22]: https://pentest-tools.com
+[23]: https://hunter.io
 
