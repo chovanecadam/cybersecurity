@@ -27,11 +27,11 @@ from Offensive Security provides countless examples sorted into 14 categories.
 @twitter                            search on social media
 site:example.com                    search on site
 cache:example.com/deleted.html      view cached site
-info:example.com                    info about site
+info:example.com                    info about the website
 filetype:php                        only files with given extension
 ext:php                             only files with given extension
 
-[all]intitle:"Index of"             pages with string in title
+[all]intitle:"Index of"             pages with string in the title
 [all]inurl:/wp/                     pages with string in url (wordpress sites)
 [all]intext:"Control Panel"         pages with string in text
 
@@ -113,25 +113,7 @@ inurl:scgi-bin intitle:"NETGEAR ProSafe"
 | eTools.ch                | search engine aggregator           | [url][17] |
 | Startpage.com            | search engine aggregator           | [url][18] |
 | Carbon Dating            | aggregator for several archiving web tools | [url][19] |
-
-[1]: https://sitereport.netcraft.com
-[2]: https://searchdns.netcraft.com/
-[3]: https://passivedns.mnemonic.no/
-[4]: https://www.macvendorlookup.com/
-[5]: https://macvendors.com/
-[6]: https://nerd.cesnet.cz/nerd/ips
-[7]: https://www.abuseipdb.com
-[8]: https://www.wappalyzer.com/lookup/
-[9]: https://securityheaders.com
-[10]: https://www.ssllabs.com/ssltest/
-[11]: https://viewdns.info/
-[14]: https://google.com/imghp 
-[15]: https://tineye.com/
-[16]: https://www.bing.com/visualsearch
-[17]: https://etools.ch/
-[18]: https://startpage.com/
-[19]: http://carbondate.cs.odu.edu/
-[21]: https://www.domainiq.com/
+| Hurricane Electric Internet Services | whois, reverse DNS     | [url][24] |
 
 Wappalyzer also offers great free [browser extensions](https://www.wappalyzer.com/download/)
 which lets you quickly fingerprint technologies used in sites, their versions,
@@ -144,7 +126,7 @@ Startpage.com also supports several [search operators](https://support.startpage
 
 Carbon Dating can be also run locally in a [Docker container](https://hub.docker.com/r/oduwsdl/carbondate/dockerfile/).
 
-### premium tools
+## premium tools
 
 | name                  | url       |
 | --------------------- | --------- |
@@ -154,9 +136,32 @@ Carbon Dating can be also run locally in a [Docker container](https://hub.docker
 | Pentest Tools         | [url][22] |
 | Hunter.io             | [url][23] |
 
+## other sources
+
+- [The Art of Subdomain Enumeration][25]
+
+[1]: https://sitereport.netcraft.com
+[2]: https://searchdns.netcraft.com/
+[3]: https://passivedns.mnemonic.no/
+[4]: https://www.macvendorlookup.com/
+[5]: https://macvendors.com/
+[6]: https://nerd.cesnet.cz/nerd/ips
+[7]: https://www.abuseipdb.com
+[8]: https://www.wappalyzer.com/lookup/
+[9]: https://securityheaders.com
+[10]: https://www.ssllabs.com/ssltest/
+[11]: https://viewdns.info/
 [12]: https://www.whoxy.com
 [13]: https://whoisology.com
+[14]: https://google.com/imghp 
+[15]: https://tineye.com/
+[16]: https://www.bing.com/visualsearch
+[17]: https://etools.ch/
+[18]: https://startpage.com/
+[19]: http://carbondate.cs.odu.edu/
 [20]: https://spyse.com/tools
+[21]: https://www.domainiq.com/
 [22]: https://pentest-tools.com
 [23]: https://hunter.io
-
+[24]: https://bgp.he.net/ip/192.168.0.1
+[25]: https://appsecco.com/books/subdomain-enumeration/

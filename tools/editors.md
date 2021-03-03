@@ -53,10 +53,6 @@ comm -12 file1 file2
 comm -3 file1 file2
 ```
 
-### diff
-
-The least readable of the three IMO.
-
 ## sorting files (uniq, sort)
 
 ```bash
@@ -155,4 +151,7 @@ gawk [ POSIX or GNU style options ] [ -- ] program-text file ...
 ```bash
 # print usernames in /etc/passwd file
 awk -F ":" '{ print $1 }' /etc/passwd
+
+# print second column on the third line in csv file
+awk -F, 'NR==3 { print $2 }' input.csv
 ```

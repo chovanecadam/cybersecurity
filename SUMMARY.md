@@ -1,18 +1,26 @@
 # Table of contents
 
-* [Rozcestník pro samostudium kybernetické bezpečnosti](README.md)
+* [Cybersecurity Knowledge Base](README.md)
 
-## Techniky, postupy, návody
+## Network Services
 
-* [Port Redirection and Tunelling](port-redirection-and-tunelling/port-redirection-and-tunelling.md)
-* [SMB - Creating SMB Share](smb/creating-smb-share.md)
-  * [Mounting SMB Share](smb/mounting-smb-share.md)
-  * [Enumerating SMB Share](smb/enumerating-smb-share.md)
+* [SMB](network-services/smb/enumerating-smb-share.md)
+  * [Mounting SMB Share](network-services/smb/mounting-smb-share.md)
+  * [Creating SMB Share](network-services/smb/creating-smb-share.md)
+* [DNS](network-services/dns.md)
+
+## Techniques
+
+* [Port Redirection and Tunelling](techniques/port-redirection-and-tunelling.md)
+* [OSINT](techniques/osint.md)
+* [Port Scanning](techniques/port-scanning.md)
+
+## Tools
+
 * [Tools](tools/README.md)
-  * [Editing files](tools/editors.md)
-  * [Processess and jobs](tools/processess.md)
-  * [Sockets and networking](tools/sockets-and-networking.md)
-* [OSINT](osint/README.md)
+* [Editing files](tools/editors.md)
+* [Processess and jobs](tools/processess.md)
+* [Sockets and networking](tools/sockets-and-networking.md)
 
 ## Network Forensics
 
